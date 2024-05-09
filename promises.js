@@ -10,6 +10,8 @@ async function entermessage(message, delayTime) {
    entermessage("Today is going to be a great day!","3560 miliseconds")
 
 
+   //QUESTION 2//
+
 // You have an array of user IDs and a function getUserData(id) that returns a Promise with user data when given a user ID.
 // Write an asynchronous function that fetches and logs the data for each user ID one by one, in sequence.   
 
@@ -40,6 +42,7 @@ async function logUserData() {
 }
 logUserData()
 
+//QUESTION 3//
 
 // You have an asynchronous function performTask() that returns a Promise. 
 // The Promise resolves if the task is successful and rejects if there's an error. Write a function that calls performTask()
@@ -69,6 +72,7 @@ async function performTask() {
    newTask();
 
 
+//QUESTION 4//
 
 // Retry Logic:
 // Scenario:
